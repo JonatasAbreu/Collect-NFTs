@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background: rgb(252,71,84);
+    background: linear-gradient(141deg, rgba(252,71,84,1) 0%, rgba(16,6,30,1) 24%);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    margin-top: 63;
+    margin-left: 62px;
+    margin-right: 255px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 141.69%;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 63px;
+}
+
+.li-bar {
+    display: inline-block;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 54px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.7);;
+}
+
+.button-get {
+    width: 136px;
+    height: 50px;
+    background: rgba(252, 71, 84, 0.91);
+    border-radius: 4px;
+    margin-left: 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+
+.button-get:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button-get:active {
+    opacity: 0.8;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    margin-left: 62px;
+}
+
+h3 {
+   margin-top: 53px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFEFE;  
+}
+
+.paragrafoh3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 141.69%;  
+    color: #FFFEFE;
+    margin-top: 15px;
+}
+
+
+.button-explore {
+    width: 136px;
+    height: 50px;
+    background: rgba(252, 71, 84, 0.91);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 29px;
+    cursor: pointer;
+}
+
+.button-explore:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button-explore:active {
+    opacity: 0.8;
+}
+
+.button-conect {
+    width: 136px;
+    height: 50px;
+    background: #10061E;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+    border: 1px solid rgba(252, 71, 84, 0.91);
+    margin-top: 29px;
+    margin-left: 25px;
+    cursor: pointer;
+    
+}
+
+.button-conect:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button-conect:active {
+    opacity: 0.8;
+}
+
+.rodape {
+    display: flex;
+    margin-top:75px ;
+}
+
+
+.texto-rodape {
+    width: 120px;
+}
+
+#text-meio {
+    border-left:2px solid rgba(255, 255, 255, 0.7); ;
+    border-right: 2px solid rgba(255, 255, 255, 0.7);;
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+
+.text1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 141.69%;
+    color: #FFFEFE;
+}
+
+.text2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 141.69%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.img-bord {
+    margin-top: 60px;
+}
+
+.current {
+    display: flex;
+    width: 417px;
+    height: 84px;
+    background: linear-gradient(91.03deg, rgba(255, 254, 254, 0.23) -47.11%, rgba(255, 254, 254, 0.23) 110.32%);
+    backdrop-filter: blur(30px);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.div-current {
+    width: 120px;
+
+}
+
+.text-current {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 14px;
+    margin-top: 14px;
+    white-space: nowrap;
+    
+}
+
+.text-current2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 14px;
+    white-space: nowrap;
+}
+
+.button-bid {
+    width: 114px;
+    height: 53px;
+    background: rgba(252, 71, 84, 0.98);
+    border: 2px solid #FF828B;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #FFFEFE;
+    margin-left: 49px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.button-bid:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.button-bid:active {
+    opacity: 0.8;
+}
+
+.mulher-nfts {
+    
+    animation: movernfts 2s infinite alternate ease-in-out;
+}
+
+@keyframes movernfts {
+    from {
+        transform: translate(-5%, 5%) rotate(-5deg);
+    }
+}
