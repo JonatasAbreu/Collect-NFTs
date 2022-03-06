@@ -201,6 +201,7 @@ h3 {
     backdrop-filter: blur(30px);
     border-radius: 5px;
     overflow: hidden;
+    margin-bottom: 5px;
 }
 
 .div-current {
